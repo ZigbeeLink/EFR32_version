@@ -17,7 +17,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 # Описание #
 
 Для работы ZigbeeLink требуется внешнее питание, которое подается на Type-C разъем устройства. В качестве источника питания можно использовать любой 5В адаптер с током не менее 200мА.
-<img src="https://github.com/ZigbeeLink/EGR32_version/blob/main/Images/Top1.JPG" height="300">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Top1.JPG" height="300">
 
 На корпусе устройства имеется 4 светодиода:
 - красный светодиод D3 сигнализирует о начилии прошивки в чипе EFR32. Отсутствие свечения светодиода означает отсуствие прошивки;
@@ -36,7 +36,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 Модули Ebyte E104-BT11N бывают как с PCB антенной, так и с разъемом IPEX1 для подключения внешней антенны. В данном решении выбран модуль с разъемом под внешнюю антенну, а сама антенна представляет собой гибкую антенну, которая клеится внутри корпуса.
 
-<img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Antenna.JPG">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Antenna.JPG">
 
 # Настройка #
 
@@ -45,11 +45,11 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 При первом включении устройства в сеть Ethernet модуль EBT3001 имеет IP адрес, заданный по умолчанию - 192.168.3.7 [(см.даташит)](https://www.cdebyte.com/pdf-down.aspx?id=2279), поэтому, чтобы подключиться к устройству и выполнить необходимые настройки, первоначальное подключение к устройству должно осуществляться из соотвествующей подсети.
 Если для настройки используется WEB-интерфейс, то после ввода IP адреса устройства в строке браузера появится окно логина, где логин и пароль по умолчанию admin/admin
 
-<img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Login.JPG">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Login.JPG">
 
 Далее в WEB-интерфейсе достоточно задать IP адрес (либо DCHP), режим работы - TCP Server, Port, а также настройки подключения по UART
 
-<img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Web.jpg">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Web.jpg">
 
 На этом настройка устройства закончена, не забудьте нажать кнопку submit, после чего можно переходить к настройке вашего сервера умного дома.
 
@@ -63,7 +63,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 - последовательный порт - enter Manually;
 - тип радиомодуля - EZSP;
 - в настройках вбить Socket://IP:PORT скорость порта указать 115200, управление потоком Flow Control, где IP - IP адрес ZigbeeLink, PORT - порт TCP сервера.  
-<img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Zha.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Zha1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Zha2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Zha3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Zha4.JPG" height="400">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha4.JPG" height="400">
 
 ## SprutHub ##
 
@@ -74,4 +74,4 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 - в расширенных настройках указывем IP адрес ZigbeeLink и порт TCP сервера;
 - сохраняемся и запускаем созданный контроллер.
 
-<img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Sh1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Sh2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Sh3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32-version/blob/main/Images/Sh4.JPG" height="400">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh4.JPG" height="400">
