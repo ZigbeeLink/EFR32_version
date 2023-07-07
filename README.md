@@ -40,8 +40,8 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 # Прошивка #
 
-Программирование чипа EFR32 осуществляется программатором JLINK [(либо его клонами)](https://aliexpress.ru/wholesale?SearchText=jlink). Для программирования можно использовать среду [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio), в модуль U2 необходимо залить файлы бутлоадера и прошивки, расположенные в папке [Firmware](https://github.com/ZigbeeLink/EFR32_version/tree/main/Firmware). 
-
+Программирование чипа EFR32 осуществляется программатором JLINK [(либо его клонами)](https://aliexpress.ru/wholesale?SearchText=jlink). Для программирования можно использовать среду [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio), в модуль U2 необходимо залить файл бутлоадера bootloader-uart-xmodem-ZigbeeLink.hex, расположенный в папке [Firmware](https://github.com/ZigbeeLink/EFR32_version/tree/main/Firmware). Настоящая инструкция преполагает наличие у пользователей минимальных навыков работы с программматором и понятие SWD интерфейса, поэтому подробности по программированию не детализированы.
+Файл прошивки NCP координатора ncp-uart-hw-ZigbeeLink-6.9.2.0.gbl представлят собой GBL файл, который прошивается через бутлоадер (GBL - аббревиатура от Gecko Bootloader). На момент написания данной инструкции была собрана прошивка ncp-uart-hw-ZigbeeLink-7.3.0.0.gbl, но ее поддержики в хабах пока нет, поэтому использовать нужно прошивку версии 6.9.2.0.
 
 # Настройка #
 
@@ -53,8 +53,32 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 Далее в WEB-интерфейсе достоточно задать IP адрес (либо DCHP), режим работы - TCP Server, Port, а также настройки подключения по UART
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Web.jpg">
+Не забывайте нажимать кнопку submit для принятия настроек.
 
-На этом настройка устройства закончена, не забудьте нажать кнопку submit, после чего можно переходить к настройке вашего сервера умного дома.
+После минимально необходимых настроек можно подключиться к устройству по сети для загрузки прошивки. Сделать это можно, например, программой [Tera Term](http://www.teraterm.org/).
+Для этого в окне нового подключения указываем IP адрес и порт нашего устройства
+
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm.JPG">
+
+После подключения нажатие клавиши 3 и Enter вызовет меню бутлоадера, а нажатие кнопки 1 и Enter вызовет процесс загрузки прошивки.
+
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm1.JPG">
+
+Далее необходимо проследовать по пути, указанному на скриншоте для отправки файла прошивки на устройство
+
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm2.JPG">
+
+Начнется процесс загрузки
+
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm3.JPG">
+
+Если загрузка успешна, то появится сообщение Serial upload complete
+
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm4.JPG">
+
+Для запуска прошивки достаточно нажать клавишу 2 и Enter, либо просто обесточить устройство и заново подать питание. При дальнейших включениях прошивка будет запускаться автоматически, а для того, чтобы снова войти в режим бутлоадера, нужно будет подать питание на устройство с одновременно зажатой кнопкой SB1.  
+
+На этом настройка устройства закончена, можно переходить к настройке вашего сервера умного дома.
 
 ## HomeAssistant ##
 
