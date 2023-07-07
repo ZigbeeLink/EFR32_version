@@ -1,6 +1,6 @@
 # О ZigbeeLink #
 
-<img src="https://github.com/ZigbeeLink/EBT-version/blob/main/Images/ZigbeeLink.jpg" height="300">
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/ZigbeeLink.jpg" height="300">
 
 ZigbeeLink - это проект LAN координатора Zigbee, основанного на стеке сетевых протоколов [EmberZNet Pro](https://www.silabs.com/developers/zigbee-emberznet) от Silicon Labs.
 
@@ -17,7 +17,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 # Описание #
 
 Для работы ZigbeeLink требуется внешнее питание, которое подается на Type-C разъем устройства. В качестве источника питания можно использовать любой 5В адаптер с током не менее 200мА.
-<img src="https://github.com/ZigbeeLink/EBT-version/blob/main/Images/Top1.JPG" height="300">
+<img src="https://github.com/ZigbeeLink/EGR32_version/blob/main/Images/Top1.JPG" height="300">
 
 На корпусе устройства имеется 4 светодиода:
 - красный светодиод D3 сигнализирует о начилии прошивки в чипе EFR32. Отсутствие свечения светодиода означает отсуствие прошивки;
@@ -30,7 +30,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 Устройство спроектировано под фабричный корпус китайской компании LK Shiny Enclosure (модель LK-USB29) размером 68х25х15 мм.
 
-<img src="https://github.com/ZigbeeLink/EBT-version/blob/main/Images/LK-Enclosure.JPG" height="300"> <img src="https://github.com/ZigbeeLink/EBT-version/blob/main/Images/Case1.jpg" height="300"> 
+<img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/LK-Enclosure.JPG" height="300"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Case1.jpg" height="300"> 
 
 Ввиду малых габаритов корпуса идеей PoE пришлось пожертвовать. 
 
