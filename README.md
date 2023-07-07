@@ -57,15 +57,19 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 После минимально необходимых настроек можно подключиться к устройству по сети для загрузки прошивки. Сделать это можно, например, программой [Tera Term](http://www.teraterm.org/).
 Для этого в окне нового подключения указываем IP адрес и порт нашего устройства
+
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm.JPG">
 
 После подключения нажатие клавиши 3 и Enter вызовет меню бутлоадера
+
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm1.JPG">
 
 Для загрузки прошивки нужно нажать клавишу 1 и Enter и выбрать передачу файла согласно скриншота
+
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm2.JPG">
 
 Начнется процесс загрузки
+
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm3.JPG">
 
 Если загрузка успешна, то появится сообщение Serial upload complete
