@@ -40,7 +40,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 # Прошивка #
 
-Программирование чипа EFR32 осуществляется программатором JLINK [(либо его клонами)](https://aliexpress.ru/wholesale?SearchText=jlink). Для программирования можно использовать среду [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio), в модуль U2 необходимо залить файлы бутлоадера и прошивки, расположенные в папке Firmware. 
+Программирование чипа EFR32 осуществляется программатором JLINK [(либо его клонами)](https://aliexpress.ru/wholesale?SearchText=jlink). Для программирования можно использовать среду [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio), в модуль U2 необходимо залить файлы бутлоадера и прошивки, расположенные в папке [Firmware](https://github.com/ZigbeeLink/EFR32_version/tree/main/Firmware). 
 
 
 # Настройка #
