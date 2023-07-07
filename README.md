@@ -60,11 +60,11 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm.JPG">
 
-После подключения нажатие клавиши 3 и Enter вызовет меню бутлоадера
+После подключения нажатие клавиши 3 и Enter вызовет меню бутлоадера, а нажатие кнопки 1 и Enter вызовет процесс загрузки прошивки.
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm1.JPG">
 
-Для загрузки прошивки нужно нажать клавишу 1 и Enter и выбрать передачу файла согласно скриншота
+Далее необходимо проследовать по пути, указанному на скриншоте для отправки файла прошивки на устройство
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm2.JPG">
 
@@ -73,6 +73,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm3.JPG">
 
 Если загрузка успешна, то появится сообщение Serial upload complete
+
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm4.JPG">
 
 Для запуска прошивки достаточно нажать клавишу 2 и Enter, либо просто обесточить устройство и заново подать питание. При дальнейших включениях прошивка будет запускаться автоматически, а для того, чтобы снова войти в режим бутлоадера, будет необходимо подать питание на устройство с одновременно зажатой кнопкой SB1.  
