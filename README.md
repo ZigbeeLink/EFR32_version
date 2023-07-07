@@ -99,7 +99,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 - на следующем шаге выбираем Zigbee Home Automation;
 - последовательный порт - enter Manually;
 - тип радиомодуля - EZSP;
-- в настройках вбить Socket://IP:PORT скорость порта указать 115200, управление потоком Flow Control, где IP - IP адрес ZigbeeLink, PORT - порт TCP сервера.  
+- в настройках вбить Socket://IP:PORT скорость порта указать 115200, управление потоком Hardware Flow Control, где IP - IP адрес ZigbeeLink, PORT - порт TCP сервера.  
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Zha4.JPG" height="400">
 
 ## SprutHub ##
