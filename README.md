@@ -111,8 +111,8 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 - переходим в настройки - контроллеры;
 - создаем новый Zigbee контроллер, задаем ему название;
 - в настройках созданного контроллера тип указываем SiliconLabs EZSP;
-- в экспертных настройкх проверяем, чтобы было аппаратное управление потоком и скорость 115200;
-- в расширенных настройках указывем IP адрес ZigbeeLink и порт TCP сервера;
+- в экспертных настройках проверяем, чтобы было аппаратное управление потоком и скорость 115200;
+- в расширенных настройках указываем IP адрес ZigbeeLink и порт TCP сервера;
 - сохраняемся и запускаем созданный контроллер.
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh4.JPG" height="400">
