@@ -117,4 +117,8 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh1.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh2.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh3.JPG" height="400"> <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Sh4.JPG" height="400">
 
-Если остались вопросы, то задать их можно в группе в [Телеграм](https://t.me/ZigbeeLink)
+## Лицензия ##
+
+ZigbeeLink распространяется под лицензией [GPL-3.0](https://opensource.org/license/gpl-3-0/)
+
+Вопросы по проекту можно задать в группе в [Телеграм](https://t.me/ZigbeeLink)
