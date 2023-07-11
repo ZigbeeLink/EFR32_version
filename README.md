@@ -66,15 +66,15 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm1.JPG">
 
-Далее необходимо проследовать по пути, указанному на скриншоте для отправки файла прошивки на устройство
+Далее необходимо проследовать по пути, указанному на скриншоте для отправки файла прошивки на устройство.
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm2.JPG">
 
-Начнется процесс загрузки
+Начнется процесс загрузки.
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm3.JPG">
 
-Если загрузка успешна, то появится сообщение Serial upload complete
+Если загрузка успешна, то появится сообщение Serial upload complete.
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/teraterm4.JPG">
 
