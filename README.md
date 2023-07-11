@@ -52,7 +52,7 @@ ZigbeeLink - это проект LAN координатора Zigbee, основ
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Login.JPG">
 
-Далее в WEB-интерфейсе достаточно задать IP адрес (либо DCHP), режим работы - TCP Server, Port, а также настройки подключения по UART
+Далее в WEB-интерфейсе достаточно задать IP адрес (либо DCHP), режим работы - TCP Server, Port, а также настройки подключения по UART.
 
 <img src="https://github.com/ZigbeeLink/EFR32_version/blob/main/Images/Web.jpg">
 Не забывайте нажимать кнопку submit для принятия настроек.
